@@ -1,0 +1,58 @@
+/* src/Navbar.css */
+.navbar {
+    background-color: white;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Add this to your CSS file */
+.navbar-logo {
+    font-size: 32px;
+    font-weight: 800;
+    font-family: 'Orbitron', sans-serif; /* You can import Orbitron or use any sci-fi/tech font */
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0), rgb(16, 16, 16));
+    background-size: 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 6s infinite linear;
+    text-shadow: 0 0 10px rgb(203, 29, 29), 0 0 20px rgb(1, 1, 255), 0 0 30px rgb(5, 5, 5);
+    letter-spacing: 2px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .navbar-logo:hover {
+    transform: scale(1.1) rotate(-1deg);
+    text-shadow: 0 0 20px #0ff, 0 0 40px #00f, 0 0 60px #f0f;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 300%;
+    }
+  }
+  
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .navbar-links li a {
+    text-decoration: none;
+    color: #374151; /* Tailwind gray-700 equivalent */
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .navbar-links li a:hover {
+    color: #2563eb;
+  }
+  

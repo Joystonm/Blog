@@ -1,0 +1,93 @@
+/* src/Home.css */
+.home-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1f2937;
+    padding: 0 20px;
+  }
+  
+  .hero-section {
+    /* background: linear-gradient(to right, #6366f1, #3b82f6);
+     */
+     background: url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MDQ3NjQ1/website-background-templates.png);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  
+  .hero-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .hero-subtitle {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  
+  .hero-button {
+    display: inline-block;
+    background-color: white;
+    color: #3b82f6;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-button:hover {
+    background-color: #e0e7ff;
+  }
+  
+  .about-section {
+    margin: 50px auto;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .about-section h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+  
+  .about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .categories-section {
+    max-width: 900px;
+    margin: 60px auto;
+    text-align: center;
+  }
+  
+  .categories-section h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .category-card {
+    background-color: #f3f4f6;
+    padding: 20px 30px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .category-card:hover {
+    transform: scale(1.05);
+    background-color: #e5e7eb;
+  }
+  

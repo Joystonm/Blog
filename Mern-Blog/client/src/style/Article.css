@@ -1,0 +1,28 @@
+
+
+.article-container {
+  max-width: 800px;
+  margin: 0 auto;
+  /* background-color: #ffffff; */
+  padding: 25px;
+  border-radius: 6px;
+  /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.article-container h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.article-container p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+.article-container .date {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,33 @@
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.article {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.article h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.article a {
+  color: #333;
+  text-decoration: none;
+}
+
+.article a:hover {
+  text-decoration: underline;
+}
+
+.article p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
