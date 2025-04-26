@@ -3,6 +3,7 @@ import axios from "axios";
 import { useAuth } from "./AuthContext";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
+import "../style/Login.css"; // Assuming you have a CSS file for styling
 
 function Login() {
   const { login } = useAuth();

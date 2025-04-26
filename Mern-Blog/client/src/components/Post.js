@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-
+import "../style/Post.css"; // Assuming you have a CSS file for styling
 function Post() {
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
@@ -47,7 +47,7 @@ function Post() {
         placeholder="Content"
         required
       ></textarea>
-      <input type="file" onChange={e => setImage(e.target.files[0])} />
+      {/* <input type="file" onChange={e => setImage(e.target.files[0])} /> */}
       <button type="submit">Post Article</button>
     </form>
   );
