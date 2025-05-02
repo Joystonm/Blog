@@ -27,7 +27,6 @@
 } */
 
 
-/* General Article Container Styling */
 .article-container {
   max-width: 800px;
   margin: 0 auto;
@@ -86,8 +85,8 @@
 }
 
 /* Edit Icon Button Styling */
-.edit-icon {
-  background-color: #0ca2d8; /* Button color */
+/* .edit-icon {
+  background-color: #0ca2d8; 
   color: rgb(0, 0, 0);
   border: none;
   padding: 10px;
@@ -97,14 +96,14 @@
   align-items: center;
   margin-bottom: 20px;
   border-radius: 4px;
-}
+} */
 
-.edit-icon:hover {
+/* .edit-icon:hover {
   background-color: #0056b3;
-}
+} */
 
 .edit-icon i {
-  margin-right: 8px; /* Space between the icon and text */
+  margin-right: 8px;
 }
 
 .save-button-container {
@@ -112,4 +111,37 @@
   cursor: pointer;
   margin-top: 10%;
   justify-content: flex-start; /* Align the button to the right (optional) */
+}
+
+.edit-icon{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.summary-button{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.summary-button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.summary-box{
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-top: 10px;
+  border-left: 5px solid #007bff;
 }

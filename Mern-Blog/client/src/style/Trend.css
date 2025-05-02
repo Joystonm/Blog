@@ -1,0 +1,94 @@
+/* Trend Page Container */
+.trend-page {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    padding: 20px;
+    margin: 0;
+    min-height: 100vh;
+  }
+  
+  /* Title for the suggested categories */
+  .trend-page h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2a3d66;
+    margin-bottom: 10px;
+  }
+  
+  /* List for recommended categories */
+  .recommended-categories {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 40px;
+  }
+  
+  .recommended-categories li {
+    font-size: 18px;
+    background-color: #e8f1fa;
+    color: #2a3d66;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .recommended-categories li:hover {
+    background-color: #d4e8fb;
+  }
+  
+  /* Title for the trending section */
+  .trend-page h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid #2a3d66;
+    padding-bottom: 10px;
+  }
+  
+  /* List for trending posts */
+  .trend-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .trend-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s;
+  }
+  
+  .trend-item:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .trend-item a {
+    font-size: 20px;
+    color: #2a3d66;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .trend-item a:hover {
+    color: #007bff;
+  }
+  
+  .trend-item p {
+    font-size: 14px;
+    color: #6c757d;
+    margin-top: 10px;
+  }
+  
+  /* Loading text */
+  .loading {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+  }
+  

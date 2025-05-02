@@ -1,0 +1,145 @@
+/* Profile container styling */
+.profile-container {
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Heading for the profile */
+  .profile-container h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form container styling */
+  .profile-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Label and Input/textarea styling */
+  label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #666666;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #333333;
+    background-color: #f9f9f9;
+    transition: border 0.3s;
+  }
+  
+  input:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  /* Button styling */
+  /* button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+   */
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  /* Save button styling */
+  button[type="submit"] {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  
+ 
+  
+  /* Cancel button styling */
+  button[type="button"] {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+ 
+  
+  /* View profile section styling */
+  .profile-details p {
+    font-size: 1.1rem;
+    color: #333333;
+    margin-bottom: 8px;
+  }
+  
+  .profile-details a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .profile-details a:hover {
+    text-decoration: underline;
+  }
+  
+  .edit-profile-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* margin-left: 10px; */
+    font-size: 14px;
+  }
+  
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .profile-container {
+      padding: 20px;
+    }
+  
+    .profile-container h2 {
+      font-size: 1.5rem;
+    }
+  
+    .profile-form input,
+    .profile-form textarea {
+      font-size: 0.9rem;
+    }
+  
+    .edit-profile-btn {
+      width: 100%;
+    }
+  }
+  

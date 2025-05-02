@@ -1,6 +1,7 @@
 {
   "name": "mern-blog",
   "version": "1.0.0",
+  "type": "module",
   "description": "Mern application for a blog",
   "main": "Server.js",
   "scripts": {

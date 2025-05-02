@@ -56,3 +56,19 @@
     color: #2563eb;
   }
   
+  .profile{
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .logout-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 14px;
+  }
