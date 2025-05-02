@@ -24,7 +24,9 @@ function ArticleList() {
           <Link to={`/articles/${article._id}`}>
             <h3>{article.title}</h3>
           </Link>
-          <p>{article.content.substring(0, 100)}...</p>
+          {/* <p>{article.content.substring(0, 100)}...</p> */}
+          <p  dangerouslySetInnerHTML={{ __html: article.content.substring(0, 100) + "..." }} />
+
         </div>
       ))}
     </div>
@@ -32,3 +34,4 @@ function ArticleList() {
 }
 
 export default ArticleList;
+
