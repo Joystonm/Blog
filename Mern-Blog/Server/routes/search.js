@@ -2,8 +2,8 @@ const express = require('express');
 const axios = require('axios');
 const router = express.Router();
 
-const HUGGING_FACE_API_TOKEN = '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';
-const MODEL_URL = 'https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-MiniLM-L6-v2';
+// const HUGGING_FACE_API_TOKEN = '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';
+// const MODEL_URL = 'https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-MiniLM-L6-v2';
 
 // Dummy article data
 const articles = [
