@@ -62,9 +62,9 @@ body {
     transition: background 0.3s;
   }
   
-  button[type="submit"]:hover {
+  /* button[type="submit"]:hover {
     background-color: #0056b3;
-  }
+  } */
   
   button[type="submit"]:disabled {
     background-color: #a0c4ff;
