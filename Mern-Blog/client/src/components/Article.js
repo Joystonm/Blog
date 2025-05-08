@@ -193,13 +193,35 @@ function Article() {
     return doc.body.textContent || "";
   };
 
+  // const generateSummary = async (text) => {
+  //   try {
+  //     setIsSummarizing(true);
+  //     console.log("Sending text to summarize:", text);
+
+  //     const response = await axios.post("/api/summarize", { text });
+
+  //     console.log("Summary response:", response.data);
+  //     if (response.data && response.data.summary) {
+  //       setSummary(response.data.summary);
+  //     } else {
+  //       throw new Error("Invalid summary response");
+  //     }
+  //   } catch (error) {
+  //     console.error("Error generating summary:", error.response?.data || error.message);
+  //     setError("Error generating summary. Please try again later.");
+  //   } finally {
+  //     setIsSummarizing(false);
+  //   }
+  // };
+
   const generateSummary = async (text) => {
     try {
       setIsSummarizing(true);
       console.log("Sending text to summarize:", text);
-
-      const response = await axios.post("/api/summarize", { text });
-
+  
+      // Update URL based on your local environment setup
+      const response = await axios.post("http://localhost:3000/api/summarize", { text });
+  
       console.log("Summary response:", response.data);
       if (response.data && response.data.summary) {
         setSummary(response.data.summary);
@@ -213,7 +235,7 @@ function Article() {
       setIsSummarizing(false);
     }
   };
-
+  
   const handleSave = () => {
     const updatedArticle = {
       ...article,

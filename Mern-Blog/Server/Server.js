@@ -389,7 +389,8 @@ app.put(
 );
 
 // Quick summary route
-app.use("/api/summarize", summarizeRoute);
+// app.use("/api/summarize", summarizeRoute);
+app.use("/api", summarizeRoute);
 
 // Use the /search route
 app.use("/search", searchRoute);
